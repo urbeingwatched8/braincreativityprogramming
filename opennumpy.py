@@ -9,7 +9,9 @@ for i in range(len(data)):
 avg=sum1/len(data)
 print(avg)
 
-#for comparing first 10 epochs per file to last 10 epochs
+#the next part is for comparing first 10 epochs per file to last 10 epochs
+
+
 #import numpy as np
 #data = np.load('D:\\experiments\\artemBnpy\\artempaint1alpha.npy')
 #print(len(data))
