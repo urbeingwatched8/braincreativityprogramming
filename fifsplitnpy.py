@@ -1,3 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 22 12:21:27 2018
+Modified on Fri Mar 12 14:47:50 2021
+@author1: Yongrui Huang
+@author2: Ruixin Lee
+@author3: Xiaojian Liu
+This script is used for extracting average PSD (Power spectral density) features 
+from raw EEG data. In the meantime, it also puts the features into hard disk in
+'.npy' format.
+The precess is described as follows.
+14 channels and 3 asymmetric pair channels are picked.
+For each channel, we extract their PSD feature in each unit second(e.g. 1 second)
+with a 50% overlap. 
+Note: change tha name MAHNOB-HCI and you can extract your own data!
+"""
+
 import glob
 import os
 
